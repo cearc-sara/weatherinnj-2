@@ -1,5 +1,5 @@
 # NJ Weather
-This project takes in a weather API and displays the temperatures on two types of graphs.
+This project takes in a weather API and displays the temperatures on two types of graphs using chartjs.
 
 # Getting Started with Create React App
 
