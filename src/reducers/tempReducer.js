@@ -10,7 +10,8 @@ export const initialState = {
             data: [],
             backgroundColor: "rgba(20, 186, 252, 1)",
             borderColor: "rgba(52, 143, 179, 1)",
-            pointBorderColor: "rgba(25, 99, 129, 1)"
+            pointBorderColor: "rgba(25, 99, 129, 1)",
+            hoverBackgroundColor: "rgba(0, 207, 143, 1)"
         }]
     }
 };
@@ -33,7 +34,8 @@ const tempReducer = (state = initialState, action) => {
                         data: action.payload.data,
                         backgroundColor: "rgba(20, 186, 252, 1)",
                         borderColor: "rgba(52, 143, 179, 1)",
-                        pointBorderColor: "rgba(25, 99, 129, 1)"
+                        pointBorderColor: "rgba(25, 99, 129, 1)",
+                        hoverBackgroundColor: "rgba(0, 207, 143, 1)"
                     }]
                 }
             }

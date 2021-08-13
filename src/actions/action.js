@@ -18,7 +18,7 @@ export const getTemps = () => async dispatch => {
         const data = [];
         for (let i = 0; i < response.data.list.length; i++) {
             data.push(response.data.list[i].main.temp)
-            labels.push(moment(response.data.list[i].dt_txt).format("LT"))
+            labels.push(moment(response.data.list[i].dt_txt).format("ddd, hA"))
 
 
         }
