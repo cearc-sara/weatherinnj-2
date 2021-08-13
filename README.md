@@ -1,3 +1,6 @@
+# NJ Weather
+This project takes in a weather API and displays the temperatures on two types of graphs.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
